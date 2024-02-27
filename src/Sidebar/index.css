@@ -1,0 +1,53 @@
+.mainContainer{
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    box-shadow: 0px 0px 5px lightgray;
+    height: 100vh;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-r{
+    background-color: black;
+    color: White;
+    padding: 20px;
+    border-radius: 20px;
+    display: inline-block;
+}
+.logo.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.sort-item{
+    list-style-type: none;
+    padding: 6px;
+    font-size: 13px;
+}
+.select-item{
+    background-color: skyblue;
+    border-left: 2px solid blue;
+    border-radius: 5px;
+}
+
+.side-options-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.item{
+    
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 5px;
+}
+.grid{
+    margin: 0px;
+    padding: 0px;
+}
