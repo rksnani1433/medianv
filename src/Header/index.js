@@ -6,12 +6,11 @@ const Header=()=>(
     <div className='main-container'>
         <div>
             <ul className='nav-items'>
-                <li className='item selected-item'>Bid</li>
-                <li className='item'>Pod</li>
-                <li className='item'>Vendor</li>
-                <li className='item'>user</li>
+                <li className='itemtype selected-item'>Bid</li>
+                <li className='itemtype'>Pod</li>
+                <li className='itemtype'>Vendor</li>
+                <li className='itemtype'>user</li>
                 <li className='user'> <p className='icon-user'><FaUserCircle /></p><p className='user-name'>Freight EG</p></li>
-
             </ul>
             </div>
     </div>

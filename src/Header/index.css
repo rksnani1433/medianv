@@ -13,11 +13,19 @@
     padding: 0px;
 }
 
-.item{
+.itemtype{
     padding: 3px;
     margin: 2px;
     width: 4rem;
     text-align: center;
+
+}
+
+.itemtype:hover{
+    border-bottom: 2px solid darkblue;
+    background-color: gray;
+    border-radius: 5px;
+
 }
 .selected-item{
     border-bottom: 2px solid darkblue;
@@ -37,4 +45,11 @@
 .user-name{
     margin: 0px;
     padding-left: 2px;
+}
+
+.user:hover{
+    background: radial-gradient(circle, #8233ba, #20c5a7);
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
 }

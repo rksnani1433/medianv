@@ -5,11 +5,11 @@ import Searchbar from './Searchbar/index.js'
 import Home from './Home/index.js'
 
 const App=()=>(
-  <div style={{display:"flex", width:"100%"}}>
+  <div style={{display:"flex", width:"100%", padding:"2px"}}>
     <div>
     <Sidebar/>
     </div>
-    <div style={{width:'90%'}} >
+    <div style={{width:"100%"}} >
     <Header/>
     <Searchbar/>
     <Home/>

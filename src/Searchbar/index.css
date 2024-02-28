@@ -12,6 +12,13 @@
     padding: 5px;
     border-radius: 2px;
     list-style-type: none;
+    font-family: sans-serif;
+}
+.option:hover{
+    background-color: lightblue;
+    cursor: pointer;
+    border-bottom: 2px solid  blueviolet;
+    border-radius: 5px;
 }
 
 .search-field{
@@ -20,7 +27,8 @@
     border-radius: 15px;
     border: 1px solid #ccc;
     margin-left: 2rem;
-    text-align: center;
+    text-align: left;
+    width: 15rem;
 }
 
 
@@ -31,16 +39,26 @@
     padding: 0px;
     margin: 0px;
 }
+.create-container:hover{
+    background: radial-gradient(circle, rgb(195, 203, 84), rgb(184, 37, 108));
+    padding: 5px;
+    color: white;
+
+}
+.create:hover{
+    color: white;
+}
 
 .create{
     padding-left: 10px;
     padding-right: 10px;
-    color: blueviolet;
+    color: rgb(147, 15, 15);
     font-weight: 600;
+    margin: 0px;
 }
 
-.icon{
+.iconplus{
     margin: 0px;
     padding: 0px;
-    padding-right: 10px;
+   
 }

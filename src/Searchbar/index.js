@@ -11,7 +11,7 @@ const Searchbar=()=>(
         </div>
         <div className='create-container'>
             <p className='create'>Create</p> 
-            <p className='icon'><CgAdd/></p>
+            <p className='iconplus'><CgAdd/></p>
         </div>
     </div>
 )

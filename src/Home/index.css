@@ -18,6 +18,11 @@
 table {
     border-collapse: collapse;
     width: 100%;
+    overflow-x: auto;
+    
+}
+tr{
+    border-bottom: 1px solid lightgray;
 }
 th, td {
     text-align: center;
@@ -59,4 +64,77 @@ th{
 .container{
     display: flex;
     padding: 10px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(212, 224, 230);
+    border-radius: 10px;
+}
+.loading{
+    color: rgb(26, 232, 26);
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 2px;
+}
+.unloading{
+    color: red;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 2px;
+}
+.first-view{
+    padding: 10px;
+    margin: 5px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+.icon{
+    margin: 0px;
+    padding: 2px;
+
+}
+.blue{
+    color: rgb(49, 49, 102);
+}
+.skyblue{
+    color: skyblue;
+}
+.subtable{
+    display: flex;
+    background-color: rgb(201, 220, 234);
+    border-radius: 10px;
+}
+.second-view{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.vertical-line{
+    height: 40px;
+    border-left: 2px dashed ;
+    padding: 1px;
+    margin-left: 0.3rem;
+}
+.loading-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.loading-svg{
+    margin: 0px;
+    padding: 0px;
+   color:rgb(67, 242, 67)
+}
+.unloading-svg{
+    margin: 0px;
+    padding: 0px;
+    color:red;
 }
